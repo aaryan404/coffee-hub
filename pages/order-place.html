@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order-place</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <!-- header starts -->
+    <header class="header">
+
+        <div class="header-left">
+            <div class="logo">
+                <a href="../home.html"><img src="../logo/Group 1.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="burger" id="burger">
+            <img id="cburger" src="../svg/hamburger.svg" alt="hamburger" onclick="burger()">
+            <img id="crossicon" class="crossicon" src="../svg/cross.svg" alt="cross" onclick="cross()">
+        </div>
+        <ul class="navigation" id="nav">
+            <li><a href="../pages/menu.html">Menu</a></li>
+            <li><a href="../pages/offers.html">Offers</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+        </ul>
+        <div class="name">
+            <h1 class="name">COFFEE HUB</h1>
+        </div>
+    </header>
+    <!-- header ends -->
+    <!-- order-place-main starts -->
+    <div class="order-main">
+        <div class="order-place-main">
+            <div class="form-title">
+                <h6>ORDER DETAILS</h6>
+            </div>
+            <div class="order-form">
+                <form id="form" action="submit">
+                    <label class="label" for="full-name">Full Name:</label>
+                    <input required class="details-input" type="text" id="full-name"> <br> <br>
+                    <label class="label" for="Phone">Phone:</label>
+                    <input required class="details-input" type="number" id="Phone"> <br> <br>
+                    <label class="label" for="Payment">Payment</label>
+                    <select required class="details-input" name="Payment" id="bank">
+                        <option value="bank1">--Choose one--</option>
+                        <option value="bank2">Credit Card</option>
+                        <option value="bank3">Debit Card</option>
+                        <option value="bank4">PayPal</option>
+                    </select> <br> <br>
+                    <label class="label" for="Card-number">Card number:</label>
+                    <input required class="details-input" type="number" id="Card-number"> <br> <br>
+                    <label class="label" for="pin">pin:</label>
+
+                    <input required class="details-input" type="number" id="full-name"> <br> <br>
+                    <div class="agreement-wrapper">
+                        <input required class="agreement-chk" type="checkbox" name="agreement" id="agreement">
+
+                        <label class="agreement" for="agreement">i agree all the terms and conditions.</label> <br> <br>
+                    </div>
+                    <a href="thankyou.html"><button class="confirm-btn" type="button" id="confirm"
+                            onclick="order()">Confirm</button></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- order-place-main ends -->
+    <!-- script starts -->
+    <script src="../script/script.js"></script>
+    <!-- script ends -->
+
+</body>
+
+</html>
