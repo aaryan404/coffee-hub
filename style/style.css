@@ -476,8 +476,10 @@ body {
 
     .logo {
         padding-top: 5px;
-        padding-left: 30px;
+        padding-left: 90px;
+
     }
+
 
     .header-left {
         display: flex;
@@ -490,12 +492,14 @@ body {
     .header-right {
         width: 200px;
         padding-top: 10px;
+
     }
 
     .name {
         margin-right: 20px;
         letter-spacing: 2px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 5px;
 
     }
 
@@ -507,10 +511,10 @@ body {
     /* navigation starts */
     .navigation {
         margin-left: 10%;
-        padding-left: 30px;
-        word-spacing: 30px;
+        padding-left: 50px;
+        word-spacing: 20px;
         padding-top: 23px;
-        width: 300px;
+        width: 400px;
         position: absolute;
 
 
@@ -518,9 +522,32 @@ body {
     }
 
     .navigation li {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 5px;
         display: inline;
         text-decoration-style: none;
+        border-bottom: 4px solid rgba(255, 255, 255, 0.048);
+
+        /* this is the new feature of css where we can use nested code */
+        :hover {
+            border-bottom: 4px solid rgba(0, 0, 0, 0.452);
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 5px;
+            transition: .2s ease;
+        }
+
+        :not(:hover) {
+            transition: .2s ease-in-out;
+        }
+
+
     }
+
+
 
     .navigation li a {
         color: white;
@@ -949,13 +976,12 @@ body {
     .items {
         border: 2px solid rgb(78, 78, 78);
         box-shadow: 2px 2px 7px black;
-        height: 275px;
-        width: 220px;
+        height: 280px;
+        width: 230px;
         margin-top: 15px;
-        margin-left: 10px;
         padding-top: 5px;
         background-color: #8d8280;
-        margin-left: 30px;
+        margin-left: 13px;
     }
 
     .itetms :hover {
