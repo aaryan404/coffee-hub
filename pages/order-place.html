@@ -38,12 +38,12 @@
                 <h6>ORDER DETAILS</h6>
             </div>
             <div class="order-form">
-                <form id="form" action="submit">
+                <form id="form" action="thankyou.html">
                     <label class="label" for="full-name">Full Name:</label>
                     <input required class="details-input" type="text" id="full-name"> <br> <br>
                     <label class="label" for="Phone">Phone:</label>
                     <input required class="details-input" type="number" id="Phone"> <br> <br>
-                    <label class="label" for="Payment">Payment</label>
+                    <label class="label" for="Payment">Payment:</label>
                     <select required class="details-input" name="Payment" id="bank">
                         <option value="bank1">--Choose one--</option>
                         <option value="bank2">Credit Card</option>
@@ -53,20 +53,58 @@
                     <label class="label" for="Card-number">Card number:</label>
                     <input required class="details-input" type="number" id="Card-number"> <br> <br>
                     <label class="label" for="pin">pin:</label>
-
-                    <input required class="details-input" type="number" id="full-name"> <br> <br>
+                    <input required class="details-input" type="password" id="pin"> <br> <br>
                     <div class="agreement-wrapper">
                         <input required class="agreement-chk" type="checkbox" name="agreement" id="agreement">
 
-                        <label class="agreement" for="agreement">i agree all the terms and conditions.</label> <br> <br>
+                        <label class="agreement" for="agreement">i agree all terms and conditions.</label> <br> <br>
                     </div>
-                    <a href="thankyou.html"><button class="confirm-btn" type="button" id="confirm"
-                            onclick="order()">Confirm</button></a>
+                    <button class="confirm-btn" type="submit" id="confirm" onclick="order()">Confirm</button>
                 </form>
             </div>
         </div>
     </div>
     <!-- order-place-main ends -->
+    <hr class="hr-conditions">
+    <footer>
+        <div class="footer-main">
+            <div class="socials">
+                <a href="#">
+                    <li><img src="../svg/facebook.svg" alt="facebook"></li>
+                </a>
+                <a href="#">
+                    <li><img src="../svg/instagram.svg" alt="instagram"></li>
+                </a>
+            </div>
+
+            <div class="conditions">
+                <ul>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Locations</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+
+            <div class="mail">
+                <ul>
+                    <li>coffeehub@2020.ca</li>
+                    <li>+1 437-498-1832</li>
+                </ul>
+
+            </div>
+            <div class="copyright">
+                <ul>
+                    <li>&#169; copyright 2023 | coffee hub</li>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </footer>
+    <!-- footer ends -->
     <!-- script starts -->
     <script src="../script/script.js"></script>
     <!-- script ends -->

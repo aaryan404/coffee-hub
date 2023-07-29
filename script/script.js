@@ -4,7 +4,6 @@ function burger() {
     document.getElementById("crossicon").style.visibility = "visible";
     document.getElementById("nav").style.visibility = "visible";
     document.getElementById("nav").style.animation = "simpleanimation forwards 1s ease-in-out;";
-    // add keyframes using javascript
 
 }
 function cross() {
@@ -12,3 +11,4 @@ function cross() {
     document.getElementById("cburger").style.visibility = "visible";
     document.getElementById("crossicon").style.visibility = "hidden";
 }
+
