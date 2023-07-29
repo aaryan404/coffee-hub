@@ -181,7 +181,7 @@ body {
     .hr-conditions {
         color: white;
         width: auto;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom: 10px;
         opacity: 0.6;
     }
@@ -909,6 +909,10 @@ body {
     .footer-hr {
         opacity: 0.2;
         margin-top: 220px;
+    }
+
+    .hr-conditions {
+        margin-top: 40px;
     }
 
     /* about page ends */
