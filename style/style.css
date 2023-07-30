@@ -623,7 +623,7 @@ body {
         align-items: center;
 
         flex-direction: column;
-        height: 2000px;
+        height: 2608px;
 
     }
 
@@ -644,13 +644,13 @@ body {
 
         background-color: #CDC1B8;
         width: 80%;
-        height: 450px;
+        height: 600px;
         border-radius: 20px;
         display: flex;
         justify-content: space-between;
         padding-left: 30px;
         padding-right: 30px;
-        margin-top: 50px;
+        margin-top: 7%;
 
 
     }
@@ -658,7 +658,7 @@ body {
     .img-1 {
 
         width: 55%;
-        height: 400px;
+        height: 90%;
         margin-top: 23px;
         border-radius: 20px;
         box-shadow: rgb(80, 78, 78) 0px 0.1px 5px 2px;
@@ -679,7 +679,7 @@ body {
         font-weight: 600;
         font-size: 13px;
         width: 40%;
-        height: 200px;
+        height: 90%;
         margin-top: 120px;
         border-radius: 20px;
         margin-left: 20px;
@@ -689,7 +689,7 @@ body {
     .txt-1 h2 {
 
 
-        font-size: 27px;
+        font-size: 30px;
         color: rgb(50, 50, 50);
         font-family: 'Inter', sans-serif;
 
@@ -701,7 +701,7 @@ body {
     .txt-1 h6 {
 
         padding-top: 10px;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: lighter;
         color: black;
     }
@@ -712,7 +712,7 @@ body {
 
         background-color: #CDC1B8;
         width: 80%;
-        height: 450px;
+        height: 600px;
         border-radius: 20px;
         display: flex;
         justify-content: space-between;
@@ -726,7 +726,7 @@ body {
     .img-2 {
 
         width: 60%;
-        height: 400px;
+        height: 90%;
         margin-top: 23px;
         border-radius: 20px;
         box-shadow: rgb(80, 78, 78) 0px 0.1px 5px 2px;
@@ -746,7 +746,7 @@ body {
     .content-3 {
         background-color: #CDC1B8;
         width: 80%;
-        height: 455px;
+        height: 600px;
         border-radius: 20px;
         display: flex;
         justify-content: space-between;
@@ -759,7 +759,7 @@ body {
     .img-3 {
 
         width: 25%;
-        height: 400px;
+        height: 90%;
         margin-left: 150px;
         margin-top: 23px;
         border-radius: 20px;
@@ -780,7 +780,7 @@ body {
     .content-4 {
         background-color: #CDC1B8;
         width: 80%;
-        height: 455px;
+        height: 600px;
         border-radius: 20px;
         display: flex;
         justify-content: space-between;
@@ -793,7 +793,7 @@ body {
     .img-4 {
 
         width: 40%;
-        height: 400px;
+        height: 90%;
         margin-top: 23px;
         margin-left: 70px;
         border-radius: 20px;
@@ -819,6 +819,7 @@ body {
         width: 100%;
         padding-top: 20px;
         display: flex;
+        margin-left: 15%;
     }
 
     .conditions {
@@ -896,10 +897,10 @@ body {
     /* about page  starts*/
     .about-main {
 
-        height: 700px;
+        height: 880px;
         width: 900px;
         padding-top: 100px;
-        margin-left: 180px;
+        margin-left: 25%;
 
     }
 
@@ -911,11 +912,12 @@ body {
         margin-top: 20px;
 
 
+
     }
 
     .about-img {
-        height: 300px;
-        width: 500px;
+        height: 100%;
+        width: 700px;
         display: flex;
         justify-content: center;
         padding-top: 10px;
@@ -925,8 +927,8 @@ body {
     }
 
     .about-img img {
-        height: 290px;
-        width: 480px;
+        height: 100%;
+        width: 100%;
 
 
     }
@@ -956,15 +958,16 @@ body {
         font-family: 'Poppins', sans-serif;
         margin-left: 220px;
         margin-top: 30px;
-
         height: 800px;
+        width: 500px;
     }
 
     .about-discription>p {
-        width: 500px;
+        width: 700px;
         font-size: 15px;
         line-height: 20px;
         margin-bottom: 20px;
+        margin-left: -20%;
 
     }
 
@@ -1159,7 +1162,7 @@ body {
     .order-place-main {
         background-color: #483833;
         margin-left: 30%;
-        width: 40%;
+        width: 35%;
         height: 500;
         display: flex;
         align-items: center;
@@ -1175,8 +1178,9 @@ body {
         margin-top: 10px;
         width: 96%;
         height: 50px;
-        font-size: 26px;
+        font-size: 30px;
         font-family: 'Inter', sans-serif;
+        letter-spacing: 5px;
 
     }
 
@@ -1249,18 +1253,19 @@ body {
     .confirm-btn {
         margin-left: 100px;
         position: absolute;
-        top: 75%;
+        top: 47%;
     }
 
     /* order-place ends */
     /* offer main starts */
     .offer-main {
         width: auto;
-        height: 1050px;
+        height: 1150px;
         padding-top: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px;
 
     }
 
@@ -1283,7 +1288,7 @@ body {
     /* offer container 1 starts */
 
     .offer-container-1 {
-        height: 500px;
+        height: 700px;
         width: 80%;
         background-color: #CDC1B8;
         display: flex;
@@ -1296,7 +1301,7 @@ body {
     /* offer container 1 left starts */
 
     .offer-container-1-left {
-        height: 450px;
+        height: 100%;
         width: 40%;
         margin-top: 25px;
         margin-left: 40px;
@@ -1304,7 +1309,7 @@ body {
     }
 
     .offer-container-1-left-top {
-        height: 60%;
+        height: 70%;
         width: 100%;
     }
 
@@ -1327,7 +1332,7 @@ body {
     /* offer container 1 left ends */
     /* offer container 1 right startts */
     .offer-container-1-right {
-        height: 450px;
+        height: 100%;
         width: 40%;
 
         margin-top: 25px;
@@ -1336,7 +1341,7 @@ body {
     }
 
     .offer-container-1-right-top {
-        height: 60%;
+        height: 70%;
         width: 100%;
 
 
@@ -1359,7 +1364,7 @@ body {
     /* offer container 1 ends */
     /* offer container 2 strts */
     .offer-container-2 {
-        height: 500px;
+        height: 700px;
         width: 80%;
         background-color: #CDC1B8;
         margin-top: 20px;
@@ -1370,7 +1375,7 @@ body {
 
     /* offer container 2 left starts */
     .offer-container-2-left {
-        height: 450px;
+        height: 100%;
         width: 40%;
 
         margin-top: 25px;
@@ -1379,7 +1384,7 @@ body {
     }
 
     .offer-container-2-left-top {
-        height: 60%;
+        height: 70%;
         width: 100%;
 
 
@@ -1399,7 +1404,7 @@ body {
     /* offer container 2 left ends */
     /* offer container 2 right starts */
     .offer-container-2-right {
-        height: 450px;
+        height: 100%;
         width: 40%;
 
         margin-top: 25px;
@@ -1408,7 +1413,7 @@ body {
     }
 
     .offer-container-2-right-top {
-        height: 60%;
+        height: 70%;
         width: 100%;
 
 
@@ -1444,11 +1449,13 @@ body {
     .main {
         height: 480px;
         width: 100%;
-        padding-top: 100px;
+        padding-top: 10%;
+        margin-bottom: 5%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #d1d6cf;
+
+
     }
 
     .center {
